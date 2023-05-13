@@ -191,6 +191,7 @@ function captureFormSubmit(adventure) {
         }else{
           alert("Failed !!!")
         }
+        location.reload()
       } catch (error) {
         console.log(error)
       }
