@@ -183,7 +183,7 @@ const addNewAdventure = () =>{
       }else{
         alert("Failed to Add New Adventure")
       }
-      
+      location.reload()
     } catch (error) {
       console.log(error)
     }
